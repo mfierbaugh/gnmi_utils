@@ -12,3 +12,4 @@ This utility takes command line arguments to specifiy the values:
 
 example: 
     ./subscribe.py -d 198.18.200.10 -u admin -p cisco123 -f openconfig-system:system/alarms  
+
