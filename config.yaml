@@ -1,0 +1,24 @@
+defaults:
+  grpc_port: 57400
+  username: admin
+  password: cisco123
+
+devices:
+  - name: RBB.NCS540.10
+    ipv4: 198.18.200.10
+    paths:
+      - Cisco-IOS-XR-policy-repository-oper:routing-policy
+      - Cisco-IOS-XR-ipv4-bgp-oper:bgp/instances/instance/instance-active/default-vrf/neighbors/neighbor
+      - Cisco-IOS-XR-alarmgr-server-oper:alarms
+
+  - name: RBB.ASR9903.20
+    ipv4: 198.18.200.20
+    paths:
+      - Cisco-IOS-XR-policy-repository-oper:routing-policy
+      - Cisco-IOS-XR-alarmgr-server-oper:alarms
+
+  - name: RBB.8201.100
+    ipv4: 198.18.200.100
+    paths:
+      - Cisco-IOS-XR-policy-repository-oper:routing-policy
+      - Cisco-IOS-XR-alarmgr-server-oper:alarms
