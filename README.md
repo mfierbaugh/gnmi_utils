@@ -10,6 +10,7 @@ This utility reads the config yaml and loops through the paths for each device u
 
 This utility takes command line arguments to specifiy the values:
 
-example: 
+example usage:
+
     ./subscribe.py -d 198.18.200.10 -u admin -p cisco123 -f openconfig-system:system/alarms  
 
