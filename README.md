@@ -2,6 +2,11 @@
 
 There are two utilities in this repo to provide examples of using pyGNMI to both get values via gRPC and to subscribe to "on change" telemetry. 
 
+## Installation
+To install the nessecary libraries, run the following:
+
+    pip3 install -r requirements.txt
+
 ## gNMI_get.py
 
 This utility reads the config yaml and loops through the paths for each device using the get function. 
